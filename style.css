@@ -1,0 +1,1215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+    /* max-width: 1800px; */
+}
+.nav-bar{
+   
+    display: flex;
+    justify-content: space-between;
+    background: #fbf7ed;
+    position: sticky;
+    top: 0;
+    
+}
+
+.nav-left{
+
+    margin: 0em 1em;
+    margin-left: 5rem;
+}
+.nav-right{
+   
+    margin:0em 1em;
+    /* margin-left: 2em; */
+    margin-right: 10rem;
+}
+
+.nav-list{
+   
+    list-style: none;
+    float: left;
+    margin: 2em 1em;
+    
+}
+.nav-links{
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: rgb(98, 92, 92);
+ transition: all 300ms ease-in-out;
+font-family: ShopifySans, Helvetica, Arial, sans-serif;
+}
+
+
+.nav-links:hover{
+   
+    color: black;
+   
+}
+
+
+.btn{
+    margin-top: 0.8em;
+    padding: 15px 15px;
+    font-weight: bold;
+    color: white;
+    background: #008060;
+    font-size: 1rem;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+.logo{
+    float: left;
+    object-fit: cover;
+    height: 80px;
+    /* margin-bottom: 2rem; */
+    cursor: pointer;
+   
+}
+.btn:hover{
+   background: #44685e;
+
+}
+
+/* image and homepage hero section */
+
+.img-com{
+    display: block;
+    width: 50%;
+    max-width: 700px;
+}
+
+.heading{
+    color: #004c3f;
+    font-size: 3em;
+    line-height: 1.375;
+    font-weight: 680;
+    font-family: ShopifySans, Helvetica, Arial, sans-serif;
+    letter-spacing: -0.028125em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0.4em;
+    
+        
+}
+
+.try-info{
+    color: #42474c;
+    font-weight: 300;
+    font-size: 0.8em;
+    margin-top: 2em;
+    
+    margin-left: 0.9em;
+    margin-bottom: 2em;
+}
+
+.info{
+    font-size: 1.25em;
+    font-family: ShopifySans,
+        Helvetica,
+        Arial,
+        sans-serif;;
+        font-weight: 400;
+        color: #6b7177;
+        margin-left: 0.9em;
+      
+}
+.details-emails{
+    display: flex;
+    flex-direction: row;
+  
+ 
+    width: 70%;
+    max-width: 600px;
+}
+
+.content{
+    /* border: 2px solid black; */
+    margin-left: 2em;
+    margin-top: 5em;
+    width: 45%;
+   
+}
+
+.details-emails .btn{
+    margin-top: 2em;
+    width: 70%;
+    max-width: 200px;
+    border: none;
+    outline: none;
+}
+
+
+
+
+
+.homepage-hero{
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+    background-color:#fbf7ed ;
+}
+
+.email-details{
+    /* display: inline-block; */
+    height:3.5em;
+    width: 100%;
+    
+    padding: 1.4em 1.93em;
+  
+    font-family: ShopifySans,
+
+        Helvetica,
+        Arial,
+        sans-serif;
+    box-shadow: 0 0 0 1px #6b7177;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background-color: #fff;
+    transition: padding 150ms;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 2.6em;
+    
+
+}
+
+.email-details:hover{
+    outline: #008060;
+}
+
+
+
+
+
+/* brings your buis. online section start  CSS */
+
+.online-buis-section{
+    background-color: #004c3f;
+    padding: 5em 5em;
+
+}
+
+.buis-head{
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 2.5em;
+    margin-bottom: 0.3em;
+    letter-spacing: -0.0207142857em;
+    font-family: ShopifySans, Helvetica, Arial, sans-serif;
+}
+
+
+.info-about-buis{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.info-about-buis p ,.info-about-buis h1{
+        /* margin-bottom: 1em; */
+        line-height: 1.5;
+        font-size: 1em;
+        margin-bottom: 3.75em;
+}
+
+
+
+.grid-buis-card{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr  ;
+    gap: 1em;
+    margin-bottom: 10rem;
+}
+
+.grid-buis-img{
+    display: block;
+    max-width: 100%;
+    margin-bottom: 1rem;
+    object-fit: cover;
+}
+
+.grid-buis-card-items a{
+    text-decoration: none;
+    color: #ffff;
+    margin-top: 1rem;
+    font-weight: 400;
+    font-family: ShopifySans, Helvetica, Arial, sans-serif;
+    letter-spacing: 0.04375em;
+    font-size: 0.8em;
+
+   
+}
+
+.grid-buis-card-items a:hover{
+    text-decoration: underline;
+
+}
+
+
+
+.grid-buis-card-items h1{
+    font-weight: 400;
+    color: #ffff;
+    margin-top: 0.5rem;
+    font-family: ShopifySans, Helvetica, Arial, sans-serif;
+    letter-spacing: 0.04375em;
+    font-size: 0.8em;
+}
+
+.busi-mid-head{
+    font-size: 1.875em;
+    color: #fff;
+    margin-bottom: 2em;
+    line-height: 1.3333333333;
+        font-weight: 400;
+        font-family: ShopifySans, Helvetica, Arial, sans-serif;
+}
+
+.grid-services-card{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2em;
+}
+
+.grid-serv-icon{
+    display: block;
+    max-width: 100%;
+    width: 20%;
+}
+
+.grid-serv-items h1{
+    color: #ffff;
+    line-height: 1.3333333333;
+        font-weight: 400;
+        font-size: 1em;
+    font-family: ShopifySans, Helvetica, Arial, sans-serif;
+    margin-top: 1em;
+    margin-bottom: 1em;
+
+}
+
+.grid-serv-items p{
+    line-height: 1.3333333333;
+        font-weight: 400;
+    color: #ffff;
+    margin-top: 1em;
+     margin-bottom: 1em;
+    font-family: ShopifySans, Helvetica, Arial, sans-serif;
+
+}
+
+
+
+
+
+
+/* brings your buis. online section end  CSS */
+
+
+
+
+
+/* homepage-pillers start   CSS*/
+
+.piller-section{
+    margin-bottom: 5rem;
+    padding: 3em 3em;
+}
+
+.big-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 5em;
+}
+
+.box-img{
+    display: block;
+    max-width: 100%;
+    object-fit: cover;
+    width: 40%;
+    border-radius: 0.7em;
+box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.bit-info {
+    text-align: center;
+   
+    padding-bottom: 6em;
+}
+
+.bit-info p {
+    margin-bottom: 1em;
+    line-height: 1.5;
+    font-size: 1.3em;
+    color: #6b7177;
+    font-weight: 300;
+    width: 40%;
+    margin-left:auto ;
+    margin-right:auto ;
+  
+}
+
+.bit-info h1{
+    font-weight: 300;
+    font-size: 2.5em;
+    margin-bottom: 0.3em;
+    font-family: ShopifySans, Helvetica, Arial, sans-serif;
+    letter-spacing: 0.0207142857em;
+    padding-top: 3em;
+   
+}
+
+.box{
+    display: flex;
+
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box-detail{
+    margin-left: 2em;
+    margin-right: 2em;
+    padding: 2em 2em;
+}
+
+.box-detail h1{
+font-size: 1.875em;
+margin-bottom: 0.6em;
+line-height: 1.3333333333;
+font-weight: 400;
+font-family: ShopifySans, Helvetica, Arial, sans-serif;
+color: #212326;
+}
+
+.box-detail p{
+    line-height: 1.5;
+    font-size: 1em;
+    color: #6b7177;
+    font-weight: 400;
+    margin-bottom: 1em;
+   
+}
+
+.box-detail a{
+
+cursor: pointer;
+ color: #008060;
+padding-right: 1.2em;
+text-decoration: none;
+font-weight: 700;
+line-height: 1.5;
+font-size: 1.125em;
+font-family: ShopifySans, Helvetica, Arial, sans-serif;
+
+}
+
+
+
+
+/* homepage-pillers start   CSS */
+
+
+
+
+
+/* shopify in india start css */
+.shopify-india-section{
+    background-color: #f3fcf4;
+   padding: 6em 6em;
+}
+
+.shopify-india-section article{
+    display: flex;
+    justify-content: space-between;
+}
+
+.shopify-india-head{
+    font-family: ShopifySans, Helvetica, Arial, Lucida Grande, sans-serif;
+    width: 50%;
+    line-height: 1.5;
+    color: #004c3f;
+    font-weight: 400;
+    font-size: 1.875em;
+    margin-bottom: 1.5em;
+}
+
+.shopify-india-link{
+    color: #008060;
+    padding-right: 1.2em;
+    text-decoration: none;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.shopify-india-section article img{
+    display: block;
+    max-width: 100%;
+    width: 50%;
+    object-fit: cover;
+}
+.start{
+    color: #212326;
+}
+
+.shopify-india-section article div{
+    text-align: left;
+    background-color: #fff;
+    line-height: 1.5;
+    color: #6b7177;
+    padding: 2em;
+    width: 100%;
+   
+}
+
+.shopify-india-section article div h1{
+
+margin-bottom: 0.8333333333em;
+
+}
+
+.launch{
+    color: #212326;
+        line-height: 1.33333;
+        font-weight: 400;
+        font-family: ShopifySans, Helvetica, Arial, sans-serif;
+}
+
+.find{
+margin-bottom: 1em;
+line-height: 1.5;
+font-size: 1em;
+
+}
+
+/* shopify in india end css */
+
+
+
+
+
+
+
+/* shopify company logo section css start */
+
+
+.shopify-com-logo{
+    padding: 6em 6em;
+}
+
+.shopify-com-logo-div{
+   
+display: flex;
+    
+}
+
+.grid-span{
+
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 6em;
+    padding-bottom: 3em;
+   
+}
+
+
+
+
+.shopify-com-img{
+    display: block;
+    max-width: 100%;
+    object-fit: cover;
+    width: 50%;
+}
+
+.shopify-com-info{
+ background-color: rgb(0, 46, 37);
+color: rgb(255, 255, 255);
+padding: 2em 2em;
+text-align: center;
+}
+
+.shopify-com-info p{
+    letter-spacing: 0.038125em;
+    font-size: 1.875em;
+    margin-bottom: 60px;
+    font-weight: 300;
+    width: 95%;
+    line-height: 1.5;
+      margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: ShopifySans, Helvetica, Arial, Lucida Grande, sans-serif;
+
+}
+
+.shopify-com-info h1{
+    padding: 2em 2em;
+}
+
+
+
+
+
+/* .grid-span{
+    grid-column: span 2;
+} */
+
+
+
+
+/* shopify company logo section css end*/
+
+
+
+
+
+
+
+
+/* shopify help section code start */
+
+
+.shopify-help-flex{
+    display: flex;
+}
+
+.shopify-help-img{
+    display: block;
+    max-width: 100%;
+    /* width: 100%; */
+    width: 40%;
+    object-fit: cover;
+    
+}
+
+.help-col-child-head{
+        font-weight: 300;
+        
+        font-size: 2.5em;
+        margin-bottom: 2em;
+        font-family: ShopifySans, Helvetica, Arial, sans-serif;
+        letter-spacing: -0.0207142857em;
+        line-height: 1.2142857143;
+        color: #212326;
+        text-align: left
+}
+
+.help-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2em;
+}
+
+
+
+.help-col-1{
+    background-color: #fbf7ed;
+    padding: 6em 6em;
+}
+
+.help-grid-items h1{
+    font-size: 1.125em;
+    margin-bottom: 0.8em;
+    line-height: 1.33333125;
+    font-weight: 500;
+    font-family: ShopifySans, Helvetica, Arial, sans-serif;
+
+
+
+}
+
+
+.help-grid-items p{
+    color: #6b7177;
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 1em;
+    margin-bottom: 0.8em;
+    font-family: ShopifySans, Helvetica, Arial, Lucida Grande, sans-serif;
+}
+
+
+.help-grid-items a{
+    color: #008060;
+    padding-right: 1.2em;
+    text-decoration: none;
+    font-weight: 600;
+    line-height: 1.5;
+    font-family: ShopifySans, Helvetica, Arial, Lucida Grande, sans-serif;
+
+}
+
+#grid-item-id {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+/* shopify help section code end */
+
+
+
+/* shopify start business journey start css  */
+
+.shopify-start-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6em 6em;
+    flex-direction: column;
+}
+
+.shopify-start-child h1{
+    font-size: 1.875em;
+    margin-bottom: 0.6em;
+    line-height: 1.3333333333;
+    font-weight: 400;
+    color: #212326;
+    text-align: center;
+    font-family: ShopifySans, Helvetica, Arial, sans-serif;
+   
+
+}
+
+.shopify-start-child p{
+    text-align: center;
+    font-weight: 400;
+    color: #6b7177;
+    font-size: 1.125em;
+    margin-bottom: 0.6666666667em;
+    font-family: ShopifySans, Helvetica, Arial, sans-serif;
+
+}
+
+#btn-new{
+    margin-top: 0.2em;
+}
+
+#btn-new:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+     
+/* shopify start business journey start css  */
+
+.bottom-to-up{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 2em;
+        padding-left: 18px;
+            padding-right: 18px;
+}
+
+.bottom-to-up a{
+        color: #008060;
+        padding-right: 1.2em;
+        text-decoration: none;
+        font-weight: 700;
+        line-height: 1.5;
+        font-size: 1.125em;
+        cursor: pointer;
+        font-family: ShopifySans, Helvetica, Arial, Lucida Grande, sans-serif;
+}
+
+
+/* shopify footer section code start css */
+
+.foot-sec{
+background: #002e25;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.foot-first-ul li{
+    list-style: none;
+}
+
+.foot-first-ul{
+    display: flex;
+}
+
+.foot-first-child{
+    border-bottom: 1px solid rgba(210, 213, 217, 0.1);
+        margin-bottom: 1.5625em;
+      
+    }
+
+
+
+
+.foot-first-ul a{
+    text-decoration: none;
+    font-family: ShopifySans, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 1.1em;
+    margin-right: 1em;
+    margin-left: 1em;
+    color: #ffffff;
+    display: inline-block;
+  
+}
+.foot-first-ul li{
+    padding-top: 2em;
+    padding-bottom: 2em;
+    transition-duration: 300ms;
+    cursor: pointer;
+   
+}
+
+.foot-first-ul li:hover{
+    border-bottom: 1px solid #fff;
+    
+}
+
+.foot-second-child-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 2em;
+
+}
+
+#temp-grid-1,#temp-grid-2{
+  color: #002e25;
+}
+
+.foot-second-child-grid li{
+    display: block;
+    font-weight: 400;
+        line-height: 1.5;
+        font-size: 0.875em;
+        padding: 0.375em 0;
+        color: #b6babf;
+        transition: color 300ms ease-in-out;
+}
+
+.foot-second-child-grid li:hover{
+    cursor: pointer;
+    color: #fff;
+}
+
+.foot-second-child-grid h1{
+    margin: 0 0 0.625em;
+    color: #ffffff;
+    letter-spacing: normal;
+    font-size: 0.875em;
+    line-height: 1.1428571429;
+    font-weight: 800;
+    font-family: ShopifySans, Helvetica, Arial, sans-serif;
+}
+
+.footer-img-childs img{
+    
+    display: block;
+    max-width: 100%;
+    width: 3%;
+    /* object-fit: cover; */
+    margin-left:  0.2em;
+    margin-right:  0.2em;
+    float: left;
+    cursor: pointer;
+  
+}
+
+
+
+
+.footer-img-links{
+    display: flex;
+    /* justify-content: space-evenly; */
+    margin-top: 3em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.footer-img-childs-2{
+    display: flex;
+    width: 100%;
+    max-width: 600px;
+ 
+}
+
+.footer-img-childs-2 a{
+  
+    margin-left:1em  ;
+    margin-right:1em ;
+    text-decoration:none ;
+    cursor: pointer;
+    color: #b6babf;
+    transition: color 300ms ease-in-out;
+    font-family: ShopifySans, Helvetica, Arial, Lucida Grande, sans-serif;
+  
+}
+
+
+
+
+
+
+
+
+/* shopify footer section code end css */
+
+
+
+
+
+
+
+@media (max-width:1100px) {
+    .nav-links{
+        display: none;
+    }
+
+    .nav-list{
+        float: none;
+
+    }
+
+    .homepage-hero{
+        flex-direction: column;
+    }
+
+    .img-com{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .details-emails{
+        flex-direction: column;
+        width: 130%;
+
+    }
+
+    .details-emails .btn{
+        margin-left: 0.7em;
+        width: 100%;
+        max-width: 405px;
+        margin-top:1em ;
+    }
+
+    .email-details{
+        
+        max-width: 400px;
+    }
+
+    .content{
+        width: 60%;
+    }
+    .nav-left{
+       margin-top: -2em;
+       margin-bottom: auto;
+       margin-left: 0;
+    }
+
+    .btn{
+        margin-right: 0em;
+        margin-top: -2em;
+        margin-bottom: auto;
+    }
+
+    .logo{
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .nav-right{
+        margin-right: 1rem;
+    }
+
+    .info-about-buis
+    {
+             flex-direction: column;
+    }
+
+    .info-about-buis p
+    {
+        /* margin-bottom: 1em; */
+        margin-bottom:1em;  
+    }
+
+        .online-buis-section {
+           
+            padding: 1em;
+    
+        }
+
+
+               
+}
+
+@media (max-width:800px) {
+
+    .grid-services-card {
+            grid-template-columns: 1fr;
+            width: 100%;
+    
+        }
+    
+        .grid-buis-card {
+            grid-template-columns: 1fr 1fr;
+            gap: 2em;
+    
+        }
+
+        .grid-buis-card-items:last-child {
+        display: none;
+        }
+
+        .buis-head{
+            font-size: 1.6em;
+            margin-top: 1.2em;
+            margin-bottom: 1.2em;
+
+        }
+
+       .busi-mid-head{
+        font-size: 1.6em;
+
+       }
+
+           .grid-serv-items h1 {
+           font-size: 1rem;
+    
+           }
+    
+           .grid-serv-items p {
+            font-size: .8rem;
+           }
+
+           .box{
+            flex-direction: column;
+           }
+
+            .bit-info{
+                    padding: 1em 1em;
+                    margin-bottom: 4em;
+                   }
+
+            .piller-section{
+                padding: 1em 1em;
+            }
+  .bit-info h1{
+    font-size: 1.6rem;
+  }
+
+
+  .box-detail{
+    padding: 0em 0em;
+   text-align: left;
+   margin: 2em 1em;
+  }
+
+  .box-img{
+    width: 90%;
+  }
+
+  .bit-info p {
+     
+      font-size: 1.1em;
+      letter-spacing: 0.05em;
+      width: 90%;
+  }
+
+
+  .box .box-img{
+    order: 2;
+  }
+  .box .box-detail{
+    order: 1;
+  }
+
+  .shopify-india-section article{
+    flex-direction: column;
+  }
+
+  .shopify-india-section{
+    padding: 1em 1em;
+  }
+
+  .shopify-india-head{
+    width: 100%;
+    font-size: 1.8em;
+    line-height: 1.3333333333;
+    font-weight: 400;
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+
+  .shopify-india-section article div{
+   order: 2;
+  }
+
+  .shopify-india-section article img{
+    order: 1;
+ width: 100%;
+    height: 400px;
+
+  }
+
+  .shopify-com-logo-div{
+    flex-direction: column;
+  }
+
+  .shopify-com-img{
+    width: 100%;
+  }
+
+  .shopify-com-logo{
+    padding: 2em 1em;
+  }
+
+  .grid-span{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2em; 
+  }
+
+
+
+  .shopify-com-info p{
+    font-size: 1.49em;
+  }
+
+  .shopify-help-flex{
+    flex-direction: column;
+  }
+
+
+  .shopify-help-img{
+    width: 100%;
+  }
+
+  .help-col-1{
+    padding: 6em 1em;
+  }
+
+  .help-grid{
+    grid-template-columns: 1fr;
+  }
+
+  #grid-item-id{
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+
+  .bottom-to-up{
+    justify-content: center;
+  }
+
+  .shopify-start-flex{
+    padding: 2em 1em;
+    padding-top: 4em;
+  }
+ 
+  .shopify-start-child p{
+font-size: 1em;
+ margin-bottom: 4em;
+  }
+
+  .shopify-start-child h1{
+    font-size: 1.6em;
+
+  }
+
+
+  .foot-second-child-grid{
+    grid-template-columns: 1fr 1fr 1fr ;
+  }
+
+  .foot-first-ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+  
+    
+  }
+
+ 
+
+  .foot-first-ul li{
+    padding-bottom: 0.4em;
+  }
+.footer-img-childs img{
+    width: 10%;
+    margin-left: 1em;
+}
+
+.footer-img-childs-2 a{
+    font-size: 1em;
+    margin-top: 1em;
+   
+}
+
+.footer-img-links{
+    flex-direction: column;
+    justify-content: center;
+}
+.footer-img-childs-2{
+    justify-content: center;
+}
+
+
+ 
+  
+
+}
+
+
+@media (max-width:600px) {
+
+    .details-emails{
+        width: 130%;
+    }
+    .details-emails .btn{
+        width: 100%;
+        
+    }
+
+   
+
+    .heading{
+        font-size: 1.9em;
+        /* margin-left: 1em; */
+        text-align: left;
+        width: 120%;
+        
+    }
+
+    .info{
+           text-align: left;
+            width: 130%;
+            font-size: 1em;
+
+    }
+    .content{
+        text-align: center;
+     
+    }
+
+    .try-info{
+        width: 130%;
+        text-align: left;
+    }  
+
+
+
+}
+
+
+@media (min-width:1700px) {
+    .container{
+        width: 90%;
+        max-width: 1500px;
+    }
+    
+}
+
+
