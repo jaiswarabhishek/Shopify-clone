@@ -7,13 +7,107 @@
     <title>Shopify</title>
     <link rel="shortcut icon" href="http://assets.stickpng.com/images/58482ec0cef1014c0b5e4a70.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
 <body>
 
     <div class="container">
+       
+        <!-- Mobile Navigation Menu -->
+       
+   <nav class="mobile-nav">
+
+    <div class="mobile-nav-box">
+
+        <div class="mobile-nav-content-container">
+
+        <div class="content-container-nav">
+            <div class="question">
+             <h3>Start</h3>
+            </div>
+
+            <div class="answer">
+             <ul>
+                <li>Start your business</li>
+                <li>Branding</li>
+                <li>Online</li>
+                <li>Store set up</li>
+             </ul>
+            </div>
+        </div>
+        
+        
+        
+        <div class="content-container-nav">
+            <div class="question">
+                <h3>Sell</h3>
+            </div>
+
+            <div class="answer">
+             <ul>
+                <li>Sell everywhere</li>
+                <li>Online</li>
+                <li>Point of Sale</li>
+               
+              
+             </ul>
+            </div>
+
+        </div> 
+        
+        
+        
+        <div class="content-container-nav">
+            <div class="question">
+                <h3>Market</h3>
+            </div>
+            <div class="answer">
+                <ul>
+                    <li>Market your business</li>
+                    <li>Email marketing</li>
+                   
+                  
+                </ul>
+            </div>
+        </div> 
+        
+        
+        <div class="content-container-nav">
+            <div class="question">
+               <h3>Manage</h3> 
+            </div>
+            <div class="answer">
+                <ul>
+                    <li>Manage everything</li>
+                    <li>Ecommerce automation</li>
+                </ul>
+            </div>
+        </div> 
+        
+        
+    
+        <div class="nav-buttons">
+            <button type="button" class="nav-btn" id="nav-btn-1">Login</button>
+        
+            <button type="button" class="nav-btn" id="nav-btn-2">Try for free</button>
+        </div>
+       
+
+        
+    </div>
+    
+</div>
 
 
+
+
+   </nav>
+     
+
+    <!-- Mobile Navigation Menu -->
        <!-- navigation bar start code -->
 
         <nav class="nav-bar">
@@ -21,23 +115,31 @@
              <ul class="unodered-list-left">
                  
                  <img src="https://www.vectorlogo.zone/logos/shopify/shopify-ar21.svg" class="logo" alt="">
-                 <li class="nav-list"><a href="#" class="nav-links" >Start </a></li>
-                <li class="nav-list"><a href="#" class="nav-links" >Sell</a></li>
-                <li class="nav-list"><a href="#" class="nav-links" >Market</a></li>
-                <li class="nav-list"><a href="#" class="nav-links" >Manage</a></li>
+                 <li class="nav-list"><a href="#" class="nav-links" >Start <i class="fa-solid fa-angle-down" id="arrow-start"></i> </a></li>
+                <li class="nav-list"><a href="#" class="nav-links" >Sell<i class="fa-solid fa-angle-down" id="arrow-sell"></i></a></li>
+                <li class="nav-list"><a href="#" class="nav-links" >Market<i class="fa-solid fa-angle-down" id="arrow-market"></i></a></li>
+                <li class="nav-list"><a href="#" class="nav-links" >Manage<i class="fa-solid fa-angle-down" id="arrow-manage"></i></a></li>
             </ul>
          </div>
          <div class="nav-right">
             <ul class="unodered-list-right">
                 
                 <li class="nav-list"><a href="#" class="nav-links" >Pricing</a></li>
-                <li class="nav-list"><a href="#" class="nav-links" >Learn</a></li>
+                <li class="nav-list"><a href="#" class="nav-links" >Learn<i class="fa-solid fa-angle-down" id="arrow-learn"></i></a></li>
                 <li class="nav-list"><a href="#" class="nav-links" >Log in</a></li>
-                <button class="btn">Try for free</button>
+                <button class="btn" id="btn-nav">Try for free</button> 
+                 <!-- just for hanmbergur menu -->
+
+                <button class="hamburger">
+                    <div class="bar"></div>
+                </button>
+
             </ul>
            
          </div>
     </nav>
+
+   
 
     <!-- naigation bar end code -->
 
@@ -393,11 +495,9 @@
 
 
 
-
 <!-- shopify footer section code start-->
 
 <section>
-
 
     <footer class="foot-sec">
 
@@ -510,18 +610,12 @@
 
 </section>
 
-
-
 <!-- shopify footer section code end-->
-
-
-
-
-
 
 
 
 </div>
     
+<script src="index.js"></script>
 </body>
 </html>

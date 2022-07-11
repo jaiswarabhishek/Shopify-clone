@@ -138,12 +138,25 @@ font-family: ShopifySans, Helvetica, Arial, sans-serif;
    
 }
 
+.fa-solid{
+    font-size: 0.7em;
+    font-weight: bold;
+    margin-left:0.3em ;
+    margin-right: 0.2em ;
+ 
+}
+
+.fa-solid:hover{
+    color: black;
+}
+
 .details-emails .btn{
     margin-top: 2em;
     width: 70%;
     max-width: 200px;
     border: none;
     outline: none;
+
 }
 
 
@@ -486,7 +499,6 @@ margin-bottom: 0.8333333333em;
 margin-bottom: 1em;
 line-height: 1.5;
 font-size: 1em;
-
 }
 
 /* shopify in india end css */
@@ -849,13 +861,6 @@ background: #002e25;
   
 }
 
-
-
-
-
-
-
-
 /* shopify footer section code end css */
 
 
@@ -864,7 +869,29 @@ background: #002e25;
 
 
 
-@media (max-width:1100px) {
+/* Hamburger Menu  css start*/
+
+.hamburger{
+    display: none;
+}
+
+
+/* Hamburger Menu  css end*/
+
+/* Mobile Navigation Bar Start */
+.mobile-nav{
+    display: none;
+}
+
+
+
+/* Mobile Navigation Bar End */
+
+
+
+
+
+@media (max-width:1200px) {
     .nav-links{
         display: none;
     }
@@ -943,7 +970,155 @@ background: #002e25;
         }
 
 
-               
+/* Hamburger Menu */
+.hamburger {
+    display: block;
+    width: 21px;
+    background: #fbf7ed;
+    height: 30px;
+    position: relative;
+    /* margin-top: 0em; */
+    top: 0em;
+    
+   /* display: none; */
+    border: none;
+    cursor: pointer;
+}
+
+.hamburger .bar,
+.hamburger::after,
+.hamburger::before {
+    content: '';
+    width: 100%;
+    background: black;
+    display: block;
+    height: 2px;
+    margin: 5px 0;
+
+}
+
+.hamburger.active::after{
+transform: rotate(45deg) translate(-1px , -7px);
+transition: .5s;
+}
+
+.hamburger.active .bar{
+    display: none;
+}
+
+.hamburger.active::before{
+    transform: rotate(-45deg) translate(2px , 4px);
+    transition: .5s;
+    
+}
+
+#btn-nav{
+    display: none;
+}
+
+.mobile-nav {
+    position: fixed;
+    top: 0;
+
+    left: 100%;
+    width: 100%;
+    height: 100vh;
+    display: block;
+
+    background-color: #fbf7ed;
+}
+
+.mobile-nav.active {
+    left: 0;
+    transition: .4s;
+
+}
+
+.mobile-nav-box {
+    position: relative;
+    margin-top: 7em;
+   
+  
+    width: 100%;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+
+.content-container-nav{
+    margin-top: 1em;
+}
+.content-container-nav li {
+    list-style-type: none;
+}
+
+
+.nav-btn{
+    display: block;
+    margin-top: 1em;
+    width: 100%;
+}
+
+.question{
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+  display: flex;
+justify-content: space-between;
+border-bottom: 1px solid black;
+}
+
+.question::after{
+    content: '+';
+    font-size: 1em;
+
+}
+
+.content-container-nav.is-active .question::after{
+ content: '-';
+font-size: 1em;
+}
+
+.question h3{
+    font-size: 1em;
+    font-weight: 300;
+}
+
+
+
+.answer li{
+    height: 0;
+    overflow: hidden;
+   margin-bottom: 0.5em;
+   font-size: 1.2em;
+   
+}
+
+.content-container-nav.is-active .answer li{
+    height: 20px;
+    transition: .4s;
+}
+
+.nav-btn{
+    padding: 0.7em;
+    cursor: pointer;
+    font-size: 1.3em;
+    border-radius: 0.5em;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#nav-btn-1{
+    background: transparent;
+}
+
+#nav-btn-2{
+    background: #008060;
+    border: none;
+    color: #fff;
+}
+
+
+
+            
 }
 
 @media (max-width:800px) {
@@ -1128,15 +1303,18 @@ font-size: 1em;
   .foot-first-ul{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
-  
-    
+    padding-top: 2em;
+    padding-bottom: 2em;
   }
 
  
 
   .foot-first-ul li{
     padding-bottom: 0.4em;
+    padding-top: 0.4em;
   }
+
+
 .footer-img-childs img{
     width: 10%;
     margin-left: 1em;
@@ -1156,9 +1334,15 @@ font-size: 1em;
     justify-content: center;
 }
 
+.foot-first-ul a {
+    
+    font-weight: 700;
+    font-size: 0.9em;
+    margin-right: 0em;
+    margin-left: 0em;
+   
+}
 
- 
-  
 
 }
 
