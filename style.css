@@ -1071,6 +1071,7 @@ transition: .5s;
   display: flex;
 justify-content: space-between;
 border-bottom: 1px solid black;
+font-size: 1.2em;
 }
 
 .question::after{
@@ -1095,7 +1096,7 @@ font-size: 1em;
     height: 0;
     overflow: hidden;
    margin-bottom: 0.5em;
-   font-size: 1.2em;
+   font-size: 1em;
    
 }
 
@@ -1282,6 +1283,7 @@ font-size: 1em;
     grid-column-end: 2;
   }
 
+  
   .bottom-to-up{
   margin-right: 0;
     justify-content: center;
@@ -1291,6 +1293,7 @@ font-size: 1em;
     padding: 2em 1em;
     padding-top: 4em;
   }
+ 
  
   .shopify-start-child p{
 font-size: 1em;
