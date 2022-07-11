@@ -486,10 +486,10 @@
 
 <!-- shopify start business journey end code section -->
 
-
 <div class="bottom-to-up">
-    <a href="#" >Back to top</a>
-    
+<button class="bottom-to-up-btn" onclick="scrollTotop()" >
+    Back to top
+</button>
 </div>
 
 
@@ -616,6 +616,35 @@
 
 </div>
     
+<script>
+
+    function scrollTotop(){
+        window.scrollTo({
+            top:0
+        })
+    }
+
+
+    const nav_back = document.querySelector('.nav-bar');
+
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 800) {
+                nav_back.style.background = 'white';
+            }
+
+            else {
+                nav_back.style.background = '#fbf7ed';
+            }
+
+        })
+
+
+
+
+</script>
+
+
+
 <script src="index.js"></script>
 </body>
 </html>

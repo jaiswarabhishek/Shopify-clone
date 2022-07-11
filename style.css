@@ -716,14 +716,20 @@ text-align: center;
     justify-content: flex-end;
     margin-top: 2em;
     margin-bottom: 2em;
-    margin-left: 2em;
-        padding-left: 18px;
-            padding-right: 18px;
+    margin-right: 2em;
+   
+    padding: 1em;
+}
+.bottom-to-up-btn{
+    background: transparent;
+    border: none;
+
 }
 
-.bottom-to-up a{
+.bottom-to-up .bottom-to-up-btn{
+
         color: #008060;
-        padding-right: 1.2em;
+      
         text-decoration: none;
         font-weight: 700;
         line-height: 1.5;
@@ -974,7 +980,7 @@ background: #002e25;
 .hamburger {
     display: block;
     width: 21px;
-    background: #fbf7ed;
+    background: transparent;
     height: 30px;
     position: relative;
     /* margin-top: 0em; */
@@ -1025,7 +1031,7 @@ transition: .5s;
     height: 100vh;
     display: block;
 
-    background-color: #fbf7ed;
+    background-color: #fff;
 }
 
 .mobile-nav.active {
@@ -1277,6 +1283,7 @@ font-size: 1em;
   }
 
   .bottom-to-up{
+  margin-right: 0;
     justify-content: center;
   }
 
