@@ -633,7 +633,8 @@
 
     function scrollTotop(){
         window.scrollTo({
-            top:0
+            top:0,
+            behavior: 'smooth',
         })
     }
 
@@ -642,6 +643,7 @@
         window.addEventListener('scroll', () => {
             if (window.scrollY > 800) {
                 nav_back.style.background = 'white';
+
             }
 
             else {

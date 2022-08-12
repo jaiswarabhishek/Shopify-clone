@@ -1117,6 +1117,11 @@ font-size: 1em;
     background: transparent;
 }
 
+#nav-btn-1:hover{
+    background-color:#008060 ;
+    color: white;
+}
+
 #nav-btn-2{
     background: #008060;
     border: none;
